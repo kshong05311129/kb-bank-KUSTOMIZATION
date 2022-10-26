@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: alpine-deployment
+  labels:
+    app: alpine
+spec:
+  replicas: 2
+  strategy: 
+    type: RollingUpdate
+  selector:
+    matchLabels:
+      app: alpine
+  template:
+    metadata:
+      labels:
+        app: alpine
+    spec:
+      containers:
+      - image: alpine:3.2
+        command:
+          - /bin/sh
+          - "-c"
+          - "sleep 60m"
+        imagePullPolicy: IfNotPresent
+        name: alpine
+        securityContext:
+          runAsUser: 2000
+          allowPrivilegeEscalation: false
+      restartPolicy: Always
