@@ -7,7 +7,7 @@ spec:
   releaseName: nginxbyhelm
   chart:
     spec:
-      chart: nginx
+      chart: nginxbyhelm
       sourceRef:
         kind: HelmRepository
         name: nginxbyhelm
