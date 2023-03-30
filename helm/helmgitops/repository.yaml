@@ -1,9 +1,8 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
-  name: nginxbyhelm
+  name: wjhelmrepo
   namespace: default
 spec:
   interval: 1m
   url: https://raw.githubusercontent.com/wonjoyoo/tmc-git/master/helm/nchart/
-  type: multi
