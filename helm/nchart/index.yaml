@@ -22,9 +22,6 @@ entries:
     - web
     - www
     - reverse proxy
-    maintainers:
-    - name: Bitnami
-      url: https://github.com/bitnami/charts
     name: nginx
     sources:
     - https://github.com/bitnami/containers/tree/main/bitnami/nginx
