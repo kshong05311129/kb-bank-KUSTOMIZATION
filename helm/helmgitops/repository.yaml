@@ -5,4 +5,4 @@ metadata:
   namespace: default
 spec:
   interval: 1m
-  url: https://github.com/wonjoyoo/tmc-git/tree/master/helm/nchart
+  url: https://raw.githubusercontent.com/wonjoyoo/tmc-git/master/helm/nchart/
