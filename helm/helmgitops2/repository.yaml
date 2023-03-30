@@ -1,8 +1,0 @@
-apiVersion: source.toolkit.fluxcd.io/v1beta2
-kind: HelmRepository
-metadata:
-  name: nginxbyhelm
-  namespace: default
-spec:
-  interval: 1m
-  url: https://github.com/wonjoyoo/tmc-git/tree/master/helm/nginx
