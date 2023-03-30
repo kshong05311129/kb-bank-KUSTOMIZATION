@@ -30,6 +30,6 @@ entries:
     - https://github.com/bitnami/containers/tree/main/bitnami/nginx
     - https://www.nginx.org
     urls:
-    - nginx-13.2.9.tgz
+    - https://github.com/wonjoyoo/tmc-git/raw/master/helm/nchart/nginx-13.2.9.tgz
     version: 13.2.9
 generated: "2023-03-30T21:23:03.204344+09:00"
