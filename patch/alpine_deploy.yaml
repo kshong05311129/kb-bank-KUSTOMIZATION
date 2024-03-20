@@ -18,7 +18,7 @@ spec:
         app: alpine
     spec:
       containers:
-      - image: harbor.tanzukorea.net/bitnami/nginx-exporter:0.10.0-debian-10-r144
+      - image: nginx:1.19.8-alpine
         command:
           - /bin/sh
           - "-c"
